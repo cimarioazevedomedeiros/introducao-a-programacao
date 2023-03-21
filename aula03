@@ -1,0 +1,49 @@
+- Desvio condicional
+    - if
+    - if else
+    - elife
+- Estruturas sequenciais
+    - Colocar (;) no final do código
+- Estrutura de controle
+    - Escolha de um bloco que será executado quando determinadas condições são satisfeitas
+
+```jsx
+se <expressão-lógica> então:
+	se <sequência-de-comandos>
+fim_se
+```
+
+- Estrutura de seleção simples
+
+```jsx
+idade = int(input("Digite a sua idade: "));
+
+if idade > 17:
+	print ("Pode entrar na festa!")
+```
+
+- Endentação
+    - Tecla (tab)
+- (:) significa o então (else)
+- Estruturas compostas
+    
+    ```jsx
+    se <expressão-lógica> então:
+    	<sequência-de-comando-1>
+    se_nao:
+    	<sequência-de-comando-2>
+    fim_se
+    ```
+    
+    Em Python
+    
+    ```python
+    idade = int(input("Digite a sua idade: "));
+    
+    if idade > 17:
+    	print ("Pode entrar na festa!")
+    elif idade > 16 e maior < 18
+    	print ("É hora de voltar para sua casa")
+    else:
+    	print ("Vou chamar seus pais.")
+    ```
