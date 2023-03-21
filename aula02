@@ -1,0 +1,56 @@
+- Introdução a linguagem Python
+    - O que é Python ?
+        - Linguagem de programação, não verbosa, multiplataforma, data science, machine learning, Scripts, APIs, Análise de dados
+    - Python.org
+    - Ferramentas para desenvolver com Python
+        - PyCharm
+        - VS Code
+        - Spyder
+        - Colab
+        - Jupyter
+    - Comandos
+        - # comentário em linha
+        - ‘’’ ’’’ comentário em bloco
+        - ‘’ string
+        - print - função
+            - função é caracterizado pelo ()
+        - imput - A função input recebe como argumento um valor em string que será mostrado ao usuário, e também retorna um valor string
+        - f - serve para formatar a string
+        - cast - Você pode fazer um cast, ou seja, alterar o valor retornado, forçando a ser um tipo desejado. Cuidado! Se for
+        - algumas funções tem um retorno
+    - Operadores aritméticos, lógicos e relacionais
+        - aritméticos
+            - +  Adição
+            - - Subtração
+            - * Multiplicação
+            - / Divisão inteira
+            - % Módulo ou Resto da divisão inteira
+            - ** Potenciação
+        - lógicos
+            - not
+            - and - conjunção
+            - or - disjunção
+        - relacionais
+            - = | ==
+            - > | >
+            - < | <
+            - ≥ | >=
+            - ≤ | <=
+            - <> | !=
+        
+        ```jsx
+        print("Eu amo programar Python!")
+        
+        nome = input("Por favor, digite seu nome: ")
+        print(f'Olá, sr. {nome}')
+        
+        valor = float(input("Por favor, digite um valor: "))
+        
+        resultado = (float(valor + 1357) * 8 / 5) ** 2
+        
+        print(resultado)
+        
+        nome = input("Por favor, digite seu nome: ")
+        print(f'Convidado para festa {nome.upper()}')
+        
+        ```
